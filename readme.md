@@ -10,9 +10,9 @@ $ npm install --save tree-json
 ## Usage
 
 ```js
-var treejson = require('treejson');
+var treejson = require('tree-json');
 
-console.log( treejson('./tmp') );
+console.log(JSON.stringify( treejson("./pancake"), null, 2) );
 ```
 
 ## CLI

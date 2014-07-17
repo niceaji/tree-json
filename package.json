@@ -1,7 +1,7 @@
 {
   "name": "tree-json",
   "version": "0.0.1",
-  "description": "tree recursive readdir",
+  "description": "convert a directory tree to json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,23 @@
     "readdir"
   ],
   "author": "aji",
-  "license": "MIT"
+  "bin": {
+    "tree-json": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niceaji/tree-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niceaji/tree-json/issues"
+  },
+  "homepage": "https://github.com/niceaji/tree-json"
 }
